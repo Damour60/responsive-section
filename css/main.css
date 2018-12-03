@@ -13,11 +13,29 @@ html {
   font: normal 100%/1.3 Noto, sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 section {
   background-color: #e5c30a;
+
 }
 
 .wrapper {
   max-width: 45em;
   margin: 0 auto;
+}
+
+.img-flex {
+  display: block;
+  width: 45%;
+}
+
+img .img-flex {
+  margin: 0;
+}
+
+.section-letter {
+  margin: 0;
 }
